@@ -1,0 +1,65 @@
+header {
+    background-color: gold;
+    font-size: 40px;
+    color: indigo;
+}
+
+p {
+    background-color: rgb(212, 210, 51);
+    font-size: 30px;
+}
+
+/* article {
+    background-color: brown;
+    padding: 10px 30px 14px 32px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+} */
+
+.first-article {
+    background-color: mediumspringgreen;
+    padding: 10px 30px 14px 32px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+/* margin {
+    margin-top: 30px;
+    margin-bottom: 40px;
+} */
+
+.first-heading {
+    color: blueviolet;
+    font-size: 60px;
+}
+
+.section-one {
+    background-color: rgb(19, 54, 53);
+    color: greenyellow;
+    font-size: 35px;
+    line-height: 1.4;
+    letter-spacing: 5px;
+}
+
+.section-two {
+    background-color: rgb(19, 54, 53);
+    color: greenyellow;
+    font-size: 35px;
+    line-height: 1.4;
+    letter-spacing: 5px;
+}
+
+.section-one {
+    text-transform: uppercase;
+}
+
+.section-two {
+    text-transform: uppercase;
+}
+
+#code-para {
+    background-color:darksalmon;
+}
+
+
+
+

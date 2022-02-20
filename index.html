@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Web Page</title>
-
-    <style>
+    <!-- Internal Styles -->
+    <!-- <style>
         h1 {
             color: brown;
             font-size: 80px;
@@ -15,13 +15,43 @@
             background-color: antiquewhite;
             font-size: 25px;
         }
-    </style>
+    </style> -->
+
+    <link rel="stylesheet" href="./styles.css"/>
+
 </head>
 <body>
 
-    <h1 style="color: rgb(255, 72, 0); font-size: 40px; background-color: blanchedalmond;">Working with HTML and CSS</h1>
+    <h1 class="first-heading">
+        Working with HTML and CSS
+    </h1>
+
+    <header>
+        Working with HTML5 Semantic Elements
+    </header>
+
+    <article class="first-article">
+        <section>
+            <p class="section-one">First Section</p>
+        </section>
+        <section>
+            <p class="section-two">Second Section</p>
+        </section>
+    </article>
+    
+
+    <p>This is reference video:</p>
+    <article class="video-article">
+        <section>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/sHn_rscQqHw" title="YouTube video player" frameborder="0" allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </article>
+
     <!-- This is paragraph tag -->
-    <p style="color: rgb(255, 72, 0); font-size: 40px; background-color: blanchedalmond;">Code editor used.</p>
+    <p id="code-para">Code editor used.</p>
+    <p>This is week:2 class</p>
 
     <img src="images/image.jpg" alt="">
 
@@ -47,7 +77,7 @@
     </ul>
 
    
-    <iframe width="500" height="396" src="https://www.youtube.com/embed/sIfjCpLR8vM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/sIfjCpLR8vM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    
 </body>
 </html>

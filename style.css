@@ -1,0 +1,30 @@
+h1 {
+    font-style: italic;
+    background-color: cornflowerblue;
+    padding-right: initial;
+}
+
+p {
+    background-color: rgb(179, 127, 148);
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.fullname{
+    background-color: rgb(150, 0, 250);
+    padding: 10px 30px 14px 32px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-inline-end: initial;
+    margin-inline-start: initial;
+    padding-bottom: initial;
+}
+
+.name {
+    background-color: rgb(19, 54, 53);
+    color: rgb(47, 241, 255);
+    font-size: 30px;
+    line-height: 1.4;
+    letter-spacing: 5px;
+}
+

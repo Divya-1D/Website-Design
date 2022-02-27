@@ -1,0 +1,37 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-size: medium;
+} */
+
+table.table-main {
+    width: 100%;
+}
+
+header {
+    margin-left: 70px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 30px;
+
+}
+
+table {
+    background-color: skyblue;
+    font-style: italic;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+thead ,
+tr {
+    font-size: large;
+    background-color: lightyellow
+}
+
+th {
+    background-color: darkseagreen;
+    letter-spacing: 5px;
+    padding: 8px;
+}

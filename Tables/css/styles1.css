@@ -1,0 +1,28 @@
+.container {
+    background-color: indianred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    border: 4px;
+    width: 70%;
+
+}
+
+header {
+    letter-spacing: 0.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin: center;
+    font-size: 40px;
+    font-family: fantasy;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    background-color: cornsilk;
+}
+
+
+table, th, td {
+    border:2px solid black;
+  }
+

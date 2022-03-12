@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Scripts</title>
+</head>
+<body>
+    <h1 id="header"></h1>
+
+    <!-- adding heading inside h1 tag using id selector -->
+    <!-- .getElementById() is used to select html elements id selectors -->
+    <!-- .innerHTML specifies the content on the webpage -->
+    <!-- every HTML element must be picked using 'document' keyword -> AS DOCUMENT IS A PARENT OF ALL HTML ELEMENTS -->
+    <script>
+        const message = 'Working with Scripts' //save hard coded value in a variable and use it 
+        document.getElementById('header').innerHTML = message
+    </script>
+
+    <!-- <script>
+        document.getElementById('header').innerHTML = 'Working with Scripts'
+    </script> -->
+</body>
+</html>

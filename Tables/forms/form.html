@@ -6,27 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
     <link rel="stylesheet" href="css/form.css">
-    <h1>Play with FORMS!!</h1>
+   
 </head>
 <body>
-    <form id="form-main">
-        <div>
-            <label>Enter Name</label>
-            <input type="text" name="name"/>
-        </div>
-        
-        <div>
-            <label>ID</label>
-            <input type="number" name="id"/>
-        </div>
+    <div class="container">
+        <h2>Fill the details to login</h2>
+        <form id="form-main" onsubmit="event.preventDefault();">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" id="firstName"/>
+            </div>
+            
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" id="lastName"/>
+            </div>
+    
+            <div>
+                <label>Contact No</label>
+                <input type="number" name="contact" id="contact"/>
+            </div>
 
-        <div>
-            <label>Contact No</label>
-            <input type="number" name="contact"/>
-        </div>
-        
-        <button>Submit</button>
+            <div>
+                <label>Employee ID</label>
+                <input type="number" name="empID" id="empID"/>
+            </div>
 
-    </form>
+            <div>
+                <label>Designation</label>
+                <input type="text" name="designation" id="designation"/>
+            </div>
+
+            <div>
+                <label>Salary</label>
+                <input type="number" name="salary" id="salary"/>
+            </div>
+
+
+            <div>
+                <button class="submit">Submit</button>
+                <button class="reset">Reset</button>
+                
+            </div>
+        </form>
+    </div>
 </body>
 </html>

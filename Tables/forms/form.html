@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <h2>Fill the details to login</h2>
-        <form id="form-main" onsubmit="event.preventDefault();">
+        <form id="form-main" onsubmit="event.preventDefault();onSubmitFunction();">
             <div>
                 <label>First Name</label>
                 <input type="text" name="firstName" id="firstName"/>
@@ -50,5 +50,23 @@
             </div>
         </form>
     </div>
+
+    <script>
+        //regular function
+        function onSubmitFunction() {
+            console.log("SOmething")
+            alert('submit button clicked')
+        }
+
+
+        //Using arrow function
+        const test1 = 'String'
+
+        //Using arrow function... just like defining variables
+        const test2 = () => {
+            console.log('Using arrow functions...!')
+        }
+        test2();
+    </script>
 </body>
 </html>

@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1 id="header"></h1>
+    <h1 id="header1"></h1>
 
     <!-- adding heading inside h1 tag using id selector -->
     <!-- .getElementById() is used to select html elements id selectors -->
@@ -15,7 +16,18 @@
     <!-- every HTML element must be picked using 'document' keyword -> AS DOCUMENT IS A PARENT OF ALL HTML ELEMENTS -->
     <script>
         const message = 'Working with Scripts' //save hard coded value in a variable and use it 
+        const message1 = 'Hello'
         document.getElementById('header').innerHTML = message
+        document.getElementById('header1').innerHTML = message1
+        
+
+        //function body - just like static data, works only when called
+        function test() {
+            console.log('Inside the Function called test() :-> ', message) // , is used to seperate a string and a variable
+        }
+        test();  //calling a function 
+
+    
     </script>
 
     <!-- <script>

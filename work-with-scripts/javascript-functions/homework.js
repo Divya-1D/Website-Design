@@ -30,10 +30,9 @@ let objects = [
     }
     ]
 
-
     for (let i = 0; i < objects.length; i++) {
       if (objects[i].Age <= 25) {
-        console.log(objects[i].Age)
+        console.log(objects[i].Name)
       }
     }   
 

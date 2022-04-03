@@ -33,7 +33,7 @@ let objects = [
 
     for (let i = 0; i < objects.length; i++) {
       if (objects[i].Age <= 25) {
-        document.write(objects[i].Age)
+        console.log(objects[i].Age)
       }
     }   
 
@@ -48,7 +48,10 @@ function func(item) {
 
 
 //4.
+var myArray = [10 , 40, 50 , 60, 5, 23, 24];
 
+const modulo = myArray.map((num) => num % 2);
+console.log(modulo)
 
 //5.
 for (let i = 1; i < 6;i++) {

@@ -29,15 +29,13 @@ let objects = [
     Age: 23
     }
     ]
-    
-//a.
-for (let object in objects) {
-    console.log(objects);
-}
 
-//b.
-// Not Finished yet
-//c.
+
+    for (let i = 0; i < objects.length; i++) {
+      if (objects[i].Age <= 25) {
+        document.write(objects[i].Age)
+      }
+    }   
 
 
 //3.
@@ -49,20 +47,12 @@ function func(item) {
  console.log(newArr)
 
 
- //4.
- //Not finished yet
+//4.
 
- //5.
- function setDelay(i){
-    myVar=setTimeout(function(){
-       console.log(i);
-       if(i==5){
-         clearTimeout(myVar);
-         return;
-       }
-      setDelay(i+1)
-    },2000)
+
+//5.
+for (let i = 1; i < 6;i++) {
+  setTimeout( () => {
+    console.log(`${i}`)
+  }, i * 2000)
 }
-
-var i=1; 
-setDelay(i);

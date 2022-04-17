@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+
+.flex-container {
+    background-color:pink;
+    /* height: 400px; */
+    /* flex-box :adding property to the container */
+    /* elements and containers have seperate properties */
+    display: flex; 
+
+    /* by-default direction is row */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+
+    /* pretains to main axis: that is row in this case */
+    /* it aligns items based on the flex-direction ;direction flow */
+    /* justify-content: space-between; */
+
+    /* pretains to cross axis: column */
+    /* align-items: center; */
+
+    /* flex-wrap: wrap; */
+}
+
+.items {
+    /* it will take grow, shrink and basis : applies all 3 according to browser size */
+    flex: 1;  
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    margin: 10px;
+    color: aliceblue;
+}
+
+/* can use nth of type for styling individual element */
+/* .items:nth-of-type(3) {
+    align-self: end;
+}
+
+.items:nth-of-type(1) {
+    align-self: center;
+} */
+
+
+/* changes the order of each elements , changes the elements based on priority*/
+/* .items:nth-of-type(3) {
+    order: 1; 
+}
+
+.items:nth-of-type(1) {
+    order: 3;
+} */
+
+
+/* size will remain same of that element: changes size of width,, can be used for all elements as well */
+/* .items:nth-of-type(2) {
+    flex-basis: 200px;
+} */
+
+
+/* based on browser size it will grow/shrink */
+/* .items:nth-of-type(1) {
+    flex-grow: 2;
+}
+
+.items:nth-of-type(3) {
+    flex-shrink: 3;
+} */
